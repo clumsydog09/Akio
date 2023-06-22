@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+#box {
+    display: flex;
+    border: 2px solid black;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+}
+
+div{
+    padding: 1%;
+}
+
+div:nth-of-type(1){
+    padding-bottom: 5%;
+}
