@@ -24,7 +24,7 @@ h3 {
 }
 
 #box {
-    display: flex;
+    display: none;
     border: 2px solid black;
     width: 30%;
     justify-content: center;
@@ -55,4 +55,77 @@ div:last-child {
 .btn {
     margin: 0;
     padding: 0;
+}
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+/* 
+#wandDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.infinite-symbol {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    animation: infinite-symbol 10s infinite linear;
+}
+
+@keyframes infinite-symbol {
+    0%{
+        left: 50%;
+        top: 50%;
+    }
+
+    11.1%{
+        left: 25%;
+        top: 75%;
+    }
+
+    22.2%{
+        left: 0;
+        top: 50%;
+    }
+
+    33.3%{
+        left: 25%;
+        top: 25%;
+    }
+
+    44.4%{
+        left: 50%;
+        top: 50%;
+    }
+
+    55.5%{
+        left: 75%;
+        top: 75%;
+    }
+
+    66.6%{
+        left:100%;
+        top: 50%;
+    }
+
+    77.7%{
+        left: 75%;
+        top: 25%;
+    }
+
+    88.8%{
+        left: 75%;
+        top: 25%;
+    }
+
+    100%{
+        left: 50%;
+        top: 50%;
+    }
 }
